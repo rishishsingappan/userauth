@@ -1,0 +1,17 @@
+﻿<Window x:Class="Userauthentication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Userauthentication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid Background="#FFF2FFFF">
+        <Label Content="USER LOGIN" HorizontalAlignment="Left" Margin="132,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.003,0.559" Height="41" Width="190" FontFamily="Times New Roman" FontSize="24"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="159,99,0,0" VerticalAlignment="Top" Height="35" Width="136" FontFamily="Times New Roman" FontSize="22"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="159,192,0,0" VerticalAlignment="Top" Height="35" Width="136" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="122,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="26" FontSize="18" FontFamily="Times New Roman" TextChanged="textbox1_TextChanged"/>
+        <Button x:Name="Submit" Foreground="White" Background="#FF569CCC" Content="Submit" HorizontalAlignment="Left" Margin="148,300,0,0" VerticalAlignment="Top" Height="32" Width="108" FontFamily="Franklin Gothic Medium" Click="Submit_Click" FontSize="17"/>
+        <PasswordBox x:Name="passwordbox" HorizontalAlignment="Left" Margin="122,232,0,0" VerticalAlignment="Top" Width="160" Height="27"/>
+    </Grid>
+</Window>
